@@ -1,0 +1,8 @@
+D:\ISMCSharp\ISMCSharp\QuadEquationWinForm\bin\Debug\QuadEquationWinForm.exe
+D:\ISMCSharp\ISMCSharp\QuadEquationWinForm\bin\Debug\QuadEquationWinForm.pdb
+D:\ISMCSharp\ISMCSharp\QuadEquationWinForm\obj\Debug\QuadEquationWinForm.csprojResolveAssemblyReference.cache
+D:\ISMCSharp\ISMCSharp\QuadEquationWinForm\obj\Debug\QuadEquationWinForm.Form1.resources
+D:\ISMCSharp\ISMCSharp\QuadEquationWinForm\obj\Debug\QuadEquationWinForm.Properties.Resources.resources
+D:\ISMCSharp\ISMCSharp\QuadEquationWinForm\obj\Debug\QuadEquationWinForm.csproj.GenerateResource.Cache
+D:\ISMCSharp\ISMCSharp\QuadEquationWinForm\obj\Debug\QuadEquationWinForm.exe
+D:\ISMCSharp\ISMCSharp\QuadEquationWinForm\obj\Debug\QuadEquationWinForm.pdb

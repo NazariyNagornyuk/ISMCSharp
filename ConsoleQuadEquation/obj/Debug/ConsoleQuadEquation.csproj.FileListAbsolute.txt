@@ -1,0 +1,4 @@
+D:\ISMCSharp\ISMCSharp\ConsoleQuadEquation\bin\Debug\ConsoleQuadEquation.exe
+D:\ISMCSharp\ISMCSharp\ConsoleQuadEquation\bin\Debug\ConsoleQuadEquation.pdb
+D:\ISMCSharp\ISMCSharp\ConsoleQuadEquation\obj\Debug\ConsoleQuadEquation.exe
+D:\ISMCSharp\ISMCSharp\ConsoleQuadEquation\obj\Debug\ConsoleQuadEquation.pdb
