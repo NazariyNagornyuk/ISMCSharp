@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadEquationWinForm", "Quad
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays1", "Arrays1\Arrays1.csproj", "{61FFD38A-AB7E-41BD-9DD2-C1A96A890934}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays2", "Arrays2\Arrays2.csproj", "{0EB0D077-5DEF-4683-8DB8-6BB9B22BB625}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{61FFD38A-AB7E-41BD-9DD2-C1A96A890934}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61FFD38A-AB7E-41BD-9DD2-C1A96A890934}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61FFD38A-AB7E-41BD-9DD2-C1A96A890934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EB0D077-5DEF-4683-8DB8-6BB9B22BB625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EB0D077-5DEF-4683-8DB8-6BB9B22BB625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EB0D077-5DEF-4683-8DB8-6BB9B22BB625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EB0D077-5DEF-4683-8DB8-6BB9B22BB625}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
