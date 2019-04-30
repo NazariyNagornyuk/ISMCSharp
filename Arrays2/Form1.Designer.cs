@@ -36,45 +36,49 @@
             this.labelIndexMax = new System.Windows.Forms.Label();
             this.labelMax = new System.Windows.Forms.Label();
             this.labelProductAfterMin = new System.Windows.Forms.Label();
-            this.ArrayTable = new System.Windows.Forms.DataGridView();
             this.buttonGenerate = new System.Windows.Forms.Button();
             this.textBoxNumberOfElements = new System.Windows.Forms.TextBox();
             this.labelNumberOfElements = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.ArrayTable)).BeginInit();
+            this.listBoxArray = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // textBoxProductBetweenMaxAndMinAbs
             // 
-            this.textBoxProductBetweenMaxAndMinAbs.Location = new System.Drawing.Point(295, 219);
+            this.textBoxProductBetweenMaxAndMinAbs.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.textBoxProductBetweenMaxAndMinAbs.Location = new System.Drawing.Point(296, 329);
             this.textBoxProductBetweenMaxAndMinAbs.Name = "textBoxProductBetweenMaxAndMinAbs";
             this.textBoxProductBetweenMaxAndMinAbs.Size = new System.Drawing.Size(100, 20);
             this.textBoxProductBetweenMaxAndMinAbs.TabIndex = 29;
             // 
             // textBoxSumBetweenFirstAndLastZero
             // 
-            this.textBoxSumBetweenFirstAndLastZero.Location = new System.Drawing.Point(295, 189);
+            this.textBoxSumBetweenFirstAndLastZero.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.textBoxSumBetweenFirstAndLastZero.Location = new System.Drawing.Point(296, 299);
             this.textBoxSumBetweenFirstAndLastZero.Name = "textBoxSumBetweenFirstAndLastZero";
             this.textBoxSumBetweenFirstAndLastZero.Size = new System.Drawing.Size(100, 20);
             this.textBoxSumBetweenFirstAndLastZero.TabIndex = 28;
             // 
             // textBoxSumBetweenFirstMinusAndSecondPlus
             // 
-            this.textBoxSumBetweenFirstMinusAndSecondPlus.Location = new System.Drawing.Point(295, 165);
+            this.textBoxSumBetweenFirstMinusAndSecondPlus.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.textBoxSumBetweenFirstMinusAndSecondPlus.Location = new System.Drawing.Point(296, 275);
             this.textBoxSumBetweenFirstMinusAndSecondPlus.Name = "textBoxSumBetweenFirstMinusAndSecondPlus";
             this.textBoxSumBetweenFirstMinusAndSecondPlus.Size = new System.Drawing.Size(100, 20);
             this.textBoxSumBetweenFirstMinusAndSecondPlus.TabIndex = 27;
             // 
             // textBoxProductAfterMin
             // 
-            this.textBoxProductAfterMin.Location = new System.Drawing.Point(295, 140);
+            this.textBoxProductAfterMin.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.textBoxProductAfterMin.Location = new System.Drawing.Point(296, 250);
             this.textBoxProductAfterMin.Name = "textBoxProductAfterMin";
             this.textBoxProductAfterMin.Size = new System.Drawing.Size(100, 20);
             this.textBoxProductAfterMin.TabIndex = 26;
             // 
             // labelMaxAbs
             // 
+            this.labelMaxAbs.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.labelMaxAbs.AutoSize = true;
-            this.labelMaxAbs.Location = new System.Drawing.Point(3, 226);
+            this.labelMaxAbs.Location = new System.Drawing.Point(4, 336);
             this.labelMaxAbs.Name = "labelMaxAbs";
             this.labelMaxAbs.Size = new System.Drawing.Size(287, 13);
             this.labelMaxAbs.TabIndex = 23;
@@ -82,8 +86,9 @@
             // 
             // labelIndexMax
             // 
+            this.labelIndexMax.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.labelIndexMax.AutoSize = true;
-            this.labelIndexMax.Location = new System.Drawing.Point(3, 196);
+            this.labelIndexMax.Location = new System.Drawing.Point(4, 306);
             this.labelIndexMax.Name = "labelIndexMax";
             this.labelIndexMax.Size = new System.Drawing.Size(274, 13);
             this.labelIndexMax.TabIndex = 22;
@@ -91,8 +96,9 @@
             // 
             // labelMax
             // 
+            this.labelMax.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.labelMax.AutoSize = true;
-            this.labelMax.Location = new System.Drawing.Point(3, 168);
+            this.labelMax.Location = new System.Drawing.Point(4, 278);
             this.labelMax.Name = "labelMax";
             this.labelMax.Size = new System.Drawing.Size(255, 13);
             this.labelMax.TabIndex = 21;
@@ -100,22 +106,13 @@
             // 
             // labelProductAfterMin
             // 
+            this.labelProductAfterMin.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.labelProductAfterMin.AutoSize = true;
-            this.labelProductAfterMin.Location = new System.Drawing.Point(2, 140);
+            this.labelProductAfterMin.Location = new System.Drawing.Point(3, 250);
             this.labelProductAfterMin.Name = "labelProductAfterMin";
             this.labelProductAfterMin.Size = new System.Drawing.Size(149, 13);
             this.labelProductAfterMin.TabIndex = 20;
             this.labelProductAfterMin.Text = "Добуток після мінімального";
-            // 
-            // ArrayTable
-            // 
-            this.ArrayTable.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.ArrayTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.ArrayTable.Location = new System.Drawing.Point(2, 30);
-            this.ArrayTable.Name = "ArrayTable";
-            this.ArrayTable.Size = new System.Drawing.Size(668, 103);
-            this.ArrayTable.TabIndex = 19;
             // 
             // buttonGenerate
             // 
@@ -143,11 +140,21 @@
             this.labelNumberOfElements.TabIndex = 16;
             this.labelNumberOfElements.Text = "Скільки елементів:";
             // 
+            // listBoxArray
+            // 
+            this.listBoxArray.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.listBoxArray.FormattingEnabled = true;
+            this.listBoxArray.Location = new System.Drawing.Point(6, 37);
+            this.listBoxArray.Name = "listBoxArray";
+            this.listBoxArray.Size = new System.Drawing.Size(390, 186);
+            this.listBoxArray.TabIndex = 30;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(682, 257);
+            this.ClientSize = new System.Drawing.Size(403, 361);
+            this.Controls.Add(this.listBoxArray);
             this.Controls.Add(this.textBoxProductBetweenMaxAndMinAbs);
             this.Controls.Add(this.textBoxSumBetweenFirstAndLastZero);
             this.Controls.Add(this.textBoxSumBetweenFirstMinusAndSecondPlus);
@@ -156,13 +163,12 @@
             this.Controls.Add(this.labelIndexMax);
             this.Controls.Add(this.labelMax);
             this.Controls.Add(this.labelProductAfterMin);
-            this.Controls.Add(this.ArrayTable);
             this.Controls.Add(this.buttonGenerate);
             this.Controls.Add(this.textBoxNumberOfElements);
             this.Controls.Add(this.labelNumberOfElements);
+            this.MinimumSize = new System.Drawing.Size(419, 399);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.ArrayTable)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -178,10 +184,10 @@
         private System.Windows.Forms.Label labelIndexMax;
         private System.Windows.Forms.Label labelMax;
         private System.Windows.Forms.Label labelProductAfterMin;
-        private System.Windows.Forms.DataGridView ArrayTable;
         private System.Windows.Forms.Button buttonGenerate;
         private System.Windows.Forms.TextBox textBoxNumberOfElements;
         private System.Windows.Forms.Label labelNumberOfElements;
+        private System.Windows.Forms.ListBox listBoxArray;
     }
 }
 

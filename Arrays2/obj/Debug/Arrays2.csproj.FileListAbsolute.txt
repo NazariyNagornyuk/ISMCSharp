@@ -1,0 +1,8 @@
+D:\ISMCSharp\ISMCSharp\Arrays2\bin\Debug\Arrays2.exe
+D:\ISMCSharp\ISMCSharp\Arrays2\bin\Debug\Arrays2.pdb
+D:\ISMCSharp\ISMCSharp\Arrays2\obj\Debug\Arrays2.csprojResolveAssemblyReference.cache
+D:\ISMCSharp\ISMCSharp\Arrays2\obj\Debug\Arrays2.Form1.resources
+D:\ISMCSharp\ISMCSharp\Arrays2\obj\Debug\Arrays2.Properties.Resources.resources
+D:\ISMCSharp\ISMCSharp\Arrays2\obj\Debug\Arrays2.csproj.GenerateResource.Cache
+D:\ISMCSharp\ISMCSharp\Arrays2\obj\Debug\Arrays2.exe
+D:\ISMCSharp\ISMCSharp\Arrays2\obj\Debug\Arrays2.pdb

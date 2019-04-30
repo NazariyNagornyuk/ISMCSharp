@@ -20,16 +20,26 @@ namespace Arrays2
 
             try
             {
+                
+
                 int arraysize = Convert.ToInt32(textBoxNumberOfElements.Text);
                 double[] array = new double[arraysize];
 
-                // я что-то не совсем въехал в датагридвью :-(
+                // тут же всё равно одномерный массив, я сделаю через лист-бокс
 
                 // заполнение массива рандомными значениями 
+                Random rnd = new Random();
                 for (int i = 0; i < array.Length; i++)
                 {
-                    Random rnd = new Random();
-                    array[i] = Math.Round((rnd.NextDouble() * 5 - 2), 3);
+                    
+                    array[i] = Math.Round((rnd.NextDouble() * 50 - 20), 3);
+                }
+
+                // listbox где будут перечислены элементы массива
+                listBoxArray.Items.Clear();
+                for(int i=0; i<array.Length;i++)
+                {
+                    listBoxArray.Items.Insert(i, "array["+i+"]= "+array[i]);
                 }
                 // произведение элементов после минимального
                 double Min = double.MaxValue;
@@ -64,8 +74,8 @@ namespace Arrays2
 
 
                 //добуток елементів масиву, що розташовані між максимальним за модулем і мінімальним за модулем елементами.
-                int MaxAbsIndex;
-                int MinAbsIndex;
+                int MaxAbsIndex=0;
+                int MinAbsIndex=0;
                 double MaxAbs = double.MinValue;
                 double MinAbs = double.MaxValue;
                 for (int i=0; i<array.Length; i++)
@@ -84,7 +94,7 @@ namespace Arrays2
                         MinAbsIndex = i;
                     }
                 }
-                double dobutok;
+                double dobutok=1;
                 if (MinAbsIndex<MaxAbsIndex)
                 {
                     for (int i=MinAbsIndex; i==MaxAbsIndex; i++)

@@ -22,14 +22,22 @@ namespace Arrays1
                 int arraysize = Convert.ToInt32(textBoxNumberOfElements.Text);
                 double[] array = new double[arraysize];
 
-                // я что-то не совсем въехал в датагридвью :-(
+                
                 
                 // заполнение массива рандомными значениями 
+                Random rnd = new Random();
                 for (int i=0; i<array.Length; i++)
                 {
-                    Random rnd=new Random();
+                    
                     array[i] = Math.Round((rnd.NextDouble()*5-2),3);
                 }
+                // listbox где будут перечислены элементы массива
+                listBoxArray.Items.Clear();
+                for (int i = 0; i < array.Length; i++)
+                {
+                    listBoxArray.Items.Insert(i, "array[" + i + "]= " + array[i]);
+                }
+
                 //поиск суммы отрицательных
                 double SumMinus = 0;
                 for (int i=0;i<array.Length;i++)
