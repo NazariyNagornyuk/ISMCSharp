@@ -1,0 +1,5 @@
+D:\ISMCSharp\ISMCSharp\OOPLib2\bin\Debug\OOPLib2.dll
+D:\ISMCSharp\ISMCSharp\OOPLib2\bin\Debug\OOPLib2.pdb
+D:\ISMCSharp\ISMCSharp\OOPLib2\obj\Debug\OOPLib2.csprojResolveAssemblyReference.cache
+D:\ISMCSharp\ISMCSharp\OOPLib2\obj\Debug\OOPLib2.dll
+D:\ISMCSharp\ISMCSharp\OOPLib2\obj\Debug\OOPLib2.pdb

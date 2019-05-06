@@ -96,11 +96,11 @@ namespace OOPLib2
         public override void ShowInfo()
         {
             base.ShowInfo();
-            Console.WriteLine("Українська мова і література: " + ZNO_ua);
-            Console.WriteLine("Іноземна мова: " + ZNO_en);
-            Console.WriteLine("Історія України: " + ZNO_history);
-            Console.WriteLine("Середній бал документа про освіту: " + SchoolGrade);
-            Console.WriteLine("Назва загальноосвітнього закладу: " + SchoolName);
+            Console.WriteLine("Украiнська мова i лiтература: " + ZNO_ua);
+            Console.WriteLine("Iноземна мова: " + ZNO_en);
+            Console.WriteLine("Iсторiя Украiни: " + ZNO_history);
+            Console.WriteLine("Середнiй бал документа про освiту: " + SchoolGrade);
+            Console.WriteLine("Назва загальноосвiтнього закладу: " + SchoolName);
         }
     }
 }

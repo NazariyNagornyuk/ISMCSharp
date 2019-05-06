@@ -111,7 +111,7 @@ namespace OOPLib2
         }
         public virtual void ShowInfo()
         {
-            Console.WriteLine("Ім'я: " + name+" Призвіще: "+surname);
+            Console.WriteLine("Iм'я: " + name+" Призвiще: "+surname);
             Console.WriteLine("Дата народження: " + BirthDay + "." + BirthMonth + "." + BirthYear);
         }
     }
